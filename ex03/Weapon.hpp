@@ -6,7 +6,7 @@
 /*   By: isouaidi <isouaidi@student.42nice.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/01 15:17:24 by isouaidi          #+#    #+#             */
-/*   Updated: 2024/06/01 15:26:44 by isouaidi         ###   ########.fr       */
+/*   Updated: 2024/06/05 19:55:31 by isouaidi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,9 @@ class Weapon
 		std :: string  name;
 	public:
 	
-	
-		Weapon();
+		std :: string getType();
+		void setType(std :: string);
+		Weapon(std :: string name);
 		~Weapon();
 };
 
